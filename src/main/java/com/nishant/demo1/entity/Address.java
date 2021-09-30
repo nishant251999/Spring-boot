@@ -15,12 +15,12 @@ public class Address {
     private String addLine2;
     private String city;
     private String country;
-    private long pincode;
+    private String pincode;
 
     public Address() {
     }
 
-    public Address(long address_id, String addLine1, String addLine2, String city, String country, long pincode) {
+    public Address(long address_id, String addLine1, String addLine2, String city, String country, String pincode) {
         this.address_id = address_id;
         this.addLine1 = addLine1;
         this.addLine2 = addLine2;
@@ -70,11 +70,11 @@ public class Address {
         this.country = country;
     }
 
-    public long getPincode() {
+    public String getPincode() {
         return pincode;
     }
 
-    public void setPincode(long pincode) {
+    public void setPincode(String pincode) {
         this.pincode = pincode;
     }
     

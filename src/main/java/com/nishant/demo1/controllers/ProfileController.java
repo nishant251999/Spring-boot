@@ -35,9 +35,9 @@ public class ProfileController {
         return service.createProfile(profile);
     }
 
-    @PutMapping(value = "profiles")
-    public Profile updateProfile(@RequestBody Profile profile) {
-        return service.updateProfile(profile);
+    @PutMapping(value = "profiles/{id}")
+    public Profile updateProfile(@PathVariable long id, @RequestBody Profile profile) {
+        return service.updateProfile(profile, id);
     }
 
     @DeleteMapping(value = "/profiles/{id}")
