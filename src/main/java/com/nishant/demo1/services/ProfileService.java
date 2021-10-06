@@ -83,7 +83,12 @@ public class ProfileService {
             if(!Utils.isValidPincode(address.getPincode())) {
                 throw new RuntimeException("Enter a valid Pincode");
             }
-            extractedProfile.setAddress(address);
+            // extractedProfile.setAddress(address);
+            extractedProfile.getAddress().setAddLine1(address.getAddLine1());
+            extractedProfile.getAddress().setAddLine2(address.getAddLine2());
+            extractedProfile.getAddress().setCity(address.getCity());
+            extractedProfile.getAddress().setCountry(address.getCountry());
+            extractedProfile.getAddress().setPincode(address.getPincode());
         }
         return profileRepo.save(extractedProfile);
     }

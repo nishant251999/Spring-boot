@@ -18,7 +18,7 @@ public class Profile {
     private String lastName;
     private String phoneNumber;
 
-    @OneToOne(cascade = CascadeType.PERSIST,orphanRemoval = true)
+    @OneToOne(cascade = CascadeType.ALL,orphanRemoval = true)
     private Address address;
     private Boolean isSBWSCompliant;
     private Boolean areMandatoryCoursesDone;
