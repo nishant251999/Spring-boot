@@ -8,6 +8,8 @@ import com.nishant.demo1.repository.ProfileRepository;
 import com.nishant.demo1.utils.Utils;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -16,43 +18,48 @@ public class ProfileService {
     @Autowired
     private ProfileRepository profileRepo;
 
-    public List<Profile> getAllProfiles() {
-        return profileRepo.findAll();
+    public ResponseEntity<Object> getAllProfiles() {
+        List<Profile> listProfile = profileRepo.findAll();
+        if (listProfile.size() == 0) {
+            return new ResponseEntity<>("No profile found",HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(profileRepo.findAll(), HttpStatus.OK);
     }
 
-    public Profile getProfileById(long id) {
+    public ResponseEntity<Object> getProfileById(long id) {
         try {
             Profile profile = profileRepo.findById(id).orElseThrow();
-            return profile;
+            return new ResponseEntity<>(profile, HttpStatus.OK);
         } catch (Exception e) {
-            throw new RuntimeException("Profile with given ID not found");
+            return new ResponseEntity<>("Profile with given ID not found",HttpStatus.NOT_FOUND);
         }
     }
 
-    public Profile createProfile(Profile profile) {
-        if( profile.getFirstName()==null            ||
-            profile.getPhoneNumber()==null          ||
-            profile.getAddress().getAddLine1()==null||
-            profile.getAddress().getCity()==null    ||
-            profile.getAddress().getPincode()==null ||
-            profile.getAddress().getCountry()==null
+    public ResponseEntity<Object> createProfile(Profile profile) {
+        if (profile.getFirstName() == null              || 
+            profile.getPhoneNumber() == null            || 
+            profile.getAddress().getAddLine1() == null  || 
+            profile.getAddress().getCity() == null      || 
+            profile.getAddress().getPincode() == null   || 
+            profile.getAddress().getCountry() == null
         ) {
-            throw new RuntimeException("Enter all madatory fields to create profile");
-        } 
-        if(!Utils.isValidPhoneNumber(profile.getPhoneNumber()))
-            throw new RuntimeException("Enter a valid Phone Number");
-
-        if(!Utils.isValidPincode(profile.getAddress().getPincode()))
-            throw new RuntimeException("Enter a valid Pincode");
-        return profileRepo.save(profile);
+            return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body("Enter All Mandatory Fields");
+        }
+        if (!Utils.isValidPhoneNumber(profile.getPhoneNumber())) {
+            return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body("Phone number is Invalid");
+        }
+        if (!Utils.isValidPincode(profile.getAddress().getPincode())) {
+            return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body("Pincode is Invalid");
+        }
+        return new ResponseEntity<>(profileRepo.save(profile), HttpStatus.CREATED);
     }
 
-    public Profile updateProfile(Profile profile, long id) {
+    public ResponseEntity<Object> updateProfile(Profile profile, long id) {
         Profile extractedProfile;
         try {
             extractedProfile = profileRepo.findById(id).orElseThrow();
         } catch (Exception e) {
-            throw new RuntimeException("Profile not found with given ID");
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Profile with ID " + id + " not found");
         }
 
         String firstName = profile.getFirstName();
@@ -68,20 +75,20 @@ public class ProfileService {
             if (Utils.isValidPhoneNumber(phoneNumber)) {
                 extractedProfile.setPhoneNumber(phoneNumber);
             } else {
-                throw new RuntimeException("Phone Number not valid");
+                return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body("Phone Number is Invalid");
             }
         }
         Address address = profile.getAddress();
         if (address != null) {
-            if( address.getAddLine1()==null ||
-                address.getCity()==null     ||
-                address.getCountry()==null  ||
-                address.getPincode()==null  
-            ) {
-                throw new RuntimeException("Enter all required fields");
+            if (address.getAddLine1() == null || 
+                address.getCity() == null     || 
+                address.getCountry() == null  || 
+                address.getPincode() == null
+                ) {
+                return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body("Enter All mandatory fields");
             }
-            if(!Utils.isValidPincode(address.getPincode())) {
-                throw new RuntimeException("Enter a valid Pincode");
+            if (!Utils.isValidPincode(address.getPincode())) {
+                return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body("Pincode is Invalid");
             }
             // extractedProfile.setAddress(address);
             extractedProfile.getAddress().setAddLine1(address.getAddLine1());
@@ -90,17 +97,19 @@ public class ProfileService {
             extractedProfile.getAddress().setCountry(address.getCountry());
             extractedProfile.getAddress().setPincode(address.getPincode());
         }
-        return profileRepo.save(extractedProfile);
+        return ResponseEntity.status(HttpStatus.ACCEPTED).body(profileRepo.save(extractedProfile));
     }
 
-    public String deleteProfile(long id) {
-        try {
-            profileRepo.findById(id).orElseThrow();
-        } catch (Exception e) {
-            return "Profile not found with given ID";
-        }
+    public ResponseEntity<String> deleteProfileById(long id) {
+        Boolean exists = profileRepo.existsById(id);
+        if (!exists)
+            return new ResponseEntity<>("Profile with id " + id + " not found", HttpStatus.NOT_FOUND);
         profileRepo.deleteById(id);
-        return "Profile " + id + " successfully deleted";
+        return new ResponseEntity<>("Profile with id " + id + " successfully deleted", HttpStatus.resolve(202));
+    }
+
+    public void deleteAll() {
+        profileRepo.deleteAll();
     }
 
 }
