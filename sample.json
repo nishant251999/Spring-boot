@@ -1,0 +1,14 @@
+{
+    "firstName": "Nishant",
+    "lastName": "Jain",
+    "phoneNumber": "+91-9876548210",
+    "address": {
+      "addLine1": "ABC-123",
+      "addLine2": "BCD",
+      "city": "Delhi",
+      "country": "India",
+      "pincode": "110556"
+    },
+    "isSBWSCompliant": true,
+    "areMandatoryCoursesDone": true
+  }
