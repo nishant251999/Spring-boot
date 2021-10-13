@@ -26,9 +26,11 @@
             <input required="true" type="text" th:field="*{address.country}" placeholder="Country" class="form-control mb-4 col-4">
             <input required="true" type="text" th:field="*{address.pincode}" placeholder="PinCode" class="form-control mb-4 col-4">
             <button type="submit" class="btn btn-info col-2"> Save Profile</button>
+            <div style = "margin-top: 7px;"align = "center">
+                <a th:href = "@{/home}"> Back to Home Page</a>
+            </div>
         </form>
-        <hr>
-        <a th:href = "@{/home}"> Back to Home Page</a>
+        
     </div>
 </body>
 </html>
