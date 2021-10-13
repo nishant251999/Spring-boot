@@ -13,12 +13,13 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+
 @RestController
 public class ProfileController {
 
     @Autowired
     private ProfileService service;
-
+    
     @GetMapping(value = "/profiles")
     public ResponseEntity<Object> getAllProfiles() {
         return service.getAllProfiles();
