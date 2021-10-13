@@ -1,5 +1,6 @@
 package com.nishant.demo1.services;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.nishant.demo1.entity.Address;
@@ -18,20 +19,20 @@ public class ProfileService {
     @Autowired
     private ProfileRepository profileRepo;
 
-    public ResponseEntity<Object> getAllProfiles() {
+    public List<Profile> getAllProfiles() {
         List<Profile> listProfile = profileRepo.findAll();
         if (listProfile.size() == 0) {
-            return new ResponseEntity<>("No profile found",HttpStatus.NOT_FOUND);
+            return new ArrayList<>();
         }
-        return new ResponseEntity<>(profileRepo.findAll(), HttpStatus.OK);
+        return listProfile;
     }
 
-    public ResponseEntity<Object> getProfileById(long id) {
+    public Profile getProfileById(long id) {
         try {
             Profile profile = profileRepo.findById(id).orElseThrow();
-            return new ResponseEntity<>(profile, HttpStatus.OK);
+            return profile;
         } catch (Exception e) {
-            return new ResponseEntity<>("Profile with given ID not found",HttpStatus.NOT_FOUND);
+            return new Profile();
         }
     }
 
