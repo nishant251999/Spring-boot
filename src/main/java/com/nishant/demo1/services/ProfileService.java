@@ -111,5 +111,4 @@ public class ProfileService {
     public void deleteAll() {
         profileRepo.deleteAll();
     }
-
 }
