@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+    <title>Add Profile</title>
+</head>
+<body>
+    <div class="container" align = "center">
+        <h2>Create Profile</h2>
+        <hr>
+        <form  th:action = "@{/createProfile}" th:object="${profile}" method="POST">
+            <h5>Contact Details</h5>
+            <input required="true" type="text" th:field="*{firstName}" placeholder="First Name" class="form-control mb-4 col-4">
+            <input type="text" th:field="*{lastName}" placeholder="Last Name" class="form-control mb-4 col-4">
+            <input required="true" type="text" th:field="*{phoneNumber}" placeholder="Phone Number" class="form-control mb-4 col-4">
+            <h5>Address</h5>
+            <input required="true" type="text" th:field="*{address.addLine1}" placeholder="Address Line 1" class="form-control mb-4 col-4">
+            <input type="text" th:field="*{address.addLine2}" placeholder="Address Line 2" class="form-control mb-4 col-4">
+            <input required="true" type="text" th:field="*{address.city}" placeholder="City" class="form-control mb-4 col-4">
+            <input required="true" type="text" th:field="*{address.country}" placeholder="Country" class="form-control mb-4 col-4">
+            <input required="true" type="text" th:field="*{address.pincode}" placeholder="PinCode" class="form-control mb-4 col-4">
+            <button type="submit" class="btn btn-info col-2"> Save Profile</button>
+        </form>
+        <hr>
+        <a th:href = "@{/home}"> Back to Home Page</a>
+    </div>
+</body>
+</html>
