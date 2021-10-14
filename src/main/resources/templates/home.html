@@ -42,7 +42,7 @@
                     <td>
                         <a th:href="@{/updateProfileForm/{id}(id=${profile.id})}" class = "btn btn-primary btn-sm mb-3">Edit</a> 
                         <br>
-                        <a th:href="@{/deleteProfile/{id}(id=${profile.id})}" class="btn btn-danger btn-sm mb-3">Delete</a>
+                        <a onclick="return confirm('Are you sure?')"th:href="@{/deleteProfile/{id}(id=${profile.id})}" class="btn btn-danger btn-sm mb-3">Delete</a>
                     </td>
                 </tr>
             </tbody>

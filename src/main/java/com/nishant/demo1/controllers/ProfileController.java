@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
+
 @Controller
 public class ProfileController {
 
@@ -56,4 +57,10 @@ public class ProfileController {
         service.deleteProfileById(id);
         return "redirect:/home";
     }
+
+    @GetMapping(value="/")
+    public String redirectToHome() {
+        return "redirect:/home";
+    }
+    
 }

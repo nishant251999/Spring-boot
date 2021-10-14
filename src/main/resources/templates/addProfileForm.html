@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="container" align = "center">
-        <h2>Create Profile</h2>
+        <h2 style=" margin-top:5px; ">Create Profile</h2>
         <hr>
         <form  th:action = "@{/createProfile}" th:object="${profile}" method="POST">
             <h5>Contact Details</h5>
@@ -29,6 +29,14 @@
             <div style = "margin-top: 7px;"align = "center">
                 <a th:href = "@{/home}"> Back to Home Page</a>
             </div>
+            <!-- <div class = "row">
+                <div class = "col">
+                    <button  type="submit" class="btn btn-info col-2"> Save Profile</button>
+                </div>
+                <div class = "col" style = "margin-top: 7px;"align = "center">
+                    <a th:href = "@{/home}"> Back to Home Page</a>
+                </div>
+            </div> -->
         </form>
         
     </div>
