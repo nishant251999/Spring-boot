@@ -1,5 +1,6 @@
 package com.nishant.demo1.services;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.nishant.demo1.entity.Address;
@@ -12,14 +13,35 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 @Service
 public class ProfileRestService {
     @Autowired
     private ProfileRepository profileRepo;
 
+    public List<Profile> getAllProfilesForView() {
+        List<Profile> listProfile = profileRepo.findAll();
+        if (listProfile.size() == 0) {
+            return new ArrayList<>();
+        }
+        return listProfile;
+    }
+
+    public Profile getProfileByIdForView(long id) {
+        try {
+            Profile profile = profileRepo.findById(id).orElseThrow();
+            return profile;
+        } catch (Exception e) {
+            return new Profile();
+        }
+    }
+    
     public ResponseEntity<Object> getAllProfiles() {
         List<Profile> listProfile = profileRepo.findAll();
         if (listProfile.size() == 0) {
+            log.error("Profile list is empty");
             return new ResponseEntity<>("No profile found",HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(profileRepo.findAll(), HttpStatus.OK);
@@ -30,6 +52,7 @@ public class ProfileRestService {
             Profile profile = profileRepo.findById(id).orElseThrow();
             return new ResponseEntity<>(profile, HttpStatus.OK);
         } catch (Exception e) {
+            log.error("Profile not found with provided ID:"+id);
             return new ResponseEntity<>("Profile with given ID not found",HttpStatus.NOT_FOUND);
         }
     }
@@ -42,12 +65,15 @@ public class ProfileRestService {
             profile.getAddress().getPincode() == null   || 
             profile.getAddress().getCountry() == null
         ) {
+            log.error("Incomplete details entered by user");
             return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body("Enter All Mandatory Fields");
         }
         if (!Utils.isValidPhoneNumber(profile.getPhoneNumber())) {
+            log.error("Invalid phone number entered by user");
             return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body("Phone number is Invalid");
         }
         if (!Utils.isValidPincode(profile.getAddress().getPincode())) {
+            log.error("Invalid pincode entered by user");
             return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body("Pincode is Invalid");
         }
         return new ResponseEntity<>(profileRepo.save(profile), HttpStatus.CREATED);
@@ -58,6 +84,7 @@ public class ProfileRestService {
         try {
             extractedProfile = profileRepo.findById(id).orElseThrow();
         } catch (Exception e) {
+            log.error("Profile with ID:" + id + " not found");
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Profile with ID " + id + " not found");
         }
 
@@ -74,6 +101,7 @@ public class ProfileRestService {
             if (Utils.isValidPhoneNumber(phoneNumber)) {
                 extractedProfile.setPhoneNumber(phoneNumber);
             } else {
+                log.error("Invalid phone number entered by user");
                 return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body("Phone Number is Invalid");
             }
         }

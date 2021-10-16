@@ -8,15 +8,25 @@
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
 	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
 	crossorigin="anonymous">
+    <link rel="stylesheet" th:href="@{./css/style.css}">
     <title>Home</title>
 </head>
 <body>
-    <div align = "center" class = "container my-2">
-        <h1>Profiles List</h1>
-        <hr>
-        <a th:href = "@{/addProfileForm}" class="btn btn-primary mb-3"> Add Profile </a>
+    <div class="row">
+        <div style="margin:10px ;" class="col" align = "left">
+            <h4 th:text="' Welcome '+ ${curUser}"></h4>
+            <h4 th:text="' Your Role : '+ ${curUserRole}"></h4>
+        </div>
+        <h1 style="margin-top: 18px;" class="col" align = "center">Profiles List</h1>
+        <div style="margin:18px 18px 0 18px;" class="col" align = "right">
+            <a onclick="return confirm('Really want to logout?')" class="btn btn-warning m-2" th:href = "@{/logout}"> Logout</a>
+        </div>
+    </div>
+    <hr>
+    <div align = "center" class = "container">
+        <a style = "margin-top: 15px;" th:href = "@{/addProfileForm}" class="btn btn-primary mb-3"> Add Profile </a>
         <table border="2" class = "table table-striped table-responsive-md">
-            <thead>
+            <thead class = "table-dark">
                 <tr>
                     <th>First Name</th> 
                     <th>Last Name</th> 

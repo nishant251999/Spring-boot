@@ -1,0 +1,6 @@
+hr {
+  margin: auto;
+  border: none;
+  height: .5px;
+  background-color: rgb(138, 138, 138); /* Modern Browsers */
+}

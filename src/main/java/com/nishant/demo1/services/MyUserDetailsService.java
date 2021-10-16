@@ -9,6 +9,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class MyUserDetailsService implements UserDetailsService {
 
     @Autowired
@@ -19,6 +22,7 @@ public class MyUserDetailsService implements UserDetailsService {
         
         User user = userRepo.findByUsername(username);
         if(user==null) {  
+            log.error(username+" not found");
             throw new UsernameNotFoundException("User not found with given username");
         }
         return new MyUserDetails(user);

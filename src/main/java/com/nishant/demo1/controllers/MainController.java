@@ -11,10 +11,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import lombok.extern.slf4j.Slf4j;
 
-
+@Slf4j
 @Controller
-public class UserController {
+public class MainController {
 
     @Autowired
     private UserService userService;
@@ -26,14 +27,15 @@ public class UserController {
     public String viewRegistrationForm(Model model) {
         User user = new User();
         model.addAttribute("user", user);
+        log.info("Registration Page Accessed");
         return "register";
     }
 
     @GetMapping(value="/signin")
     public String LoginPage() {
+        log.info("Login Page Accessed");
         return "signin";
     }
-    
 
     @PostMapping(value="/registerUser")
     public String registerUser(@ModelAttribute("user") User user, Model model) {
@@ -42,7 +44,17 @@ public class UserController {
         model.addAttribute("user", user);
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         userService.createUser(user);
+        log.info("Registration Successfull for user : "+user.getUsername());
         return "redirect:/register?success";
     }
-    
+
+    @GetMapping(value="/")
+    public String redirectToHome() {
+        return "redirect:/home";
+    }
+
+    @GetMapping(value="/temp")
+    public String tempPage() {
+        return "temp";
+    }
 }

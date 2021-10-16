@@ -1,5 +1,11 @@
 package com.nishant.demo1.SecurityConfiguration;
 
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import com.nishant.demo1.services.MyUserDetailsService;
 
 import org.springframework.context.annotation.Bean;
@@ -9,9 +15,16 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 @Configuration
 @EnableWebSecurity
 public class MyConfig extends WebSecurityConfigurerAdapter{
@@ -23,9 +36,35 @@ public class MyConfig extends WebSecurityConfigurerAdapter{
         .antMatchers("/home/**").hasAnyRole("USER","MOD","ADMIN")
         .antMatchers("/updateProfileForm/**").hasAnyRole("MOD","ADMIN")
         .antMatchers("/addProfileForm/**","/deleteProfile/**").hasAnyRole("ADMIN")
-        .antMatchers("/register/**","/login/**").permitAll()
+        .antMatchers("/signin**","/register").permitAll()
         .and()
         .formLogin().loginPage("/signin")
+        .defaultSuccessUrl("/home")
+        .successHandler(new AuthenticationSuccessHandler() {
+            @Override
+            public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication)
+                    throws IOException, ServletException {
+
+                UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+                String username = userDetails.getUsername();                    
+                log.info("The user " + username + " has logged in successfully");
+                response.sendRedirect(request.getContextPath());
+            }
+        })
+        .and()
+        .logout()
+            .logoutSuccessHandler(new LogoutSuccessHandler() {
+ 
+                @Override
+                public void onLogoutSuccess(HttpServletRequest request,
+                            HttpServletResponse response, Authentication authentication)
+                        throws IOException, ServletException {
+                    UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+                    String username = userDetails.getUsername();  
+                    log.info("The user " + username + " has logged out successfully");
+                    response.sendRedirect("signin?logout");
+                }
+            }) 
         .and()
         .csrf().disable();
     }
