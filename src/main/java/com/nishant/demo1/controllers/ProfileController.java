@@ -4,12 +4,9 @@ import java.security.Principal;
 import java.util.List;
 
 import com.nishant.demo1.entity.Profile;
-import com.nishant.demo1.entity.User;
 import com.nishant.demo1.services.ProfileRestService;
-import com.nishant.demo1.services.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -54,8 +51,6 @@ public class ProfileController {
     @PostMapping(value="/createProfile")
     public String createProfile(@ModelAttribute("profile") Profile profile, Authentication auth) {
         String curUser = auth.getName();
-        ResponseEntity<Object> response = service.createProfile(profile);
-
         log.info("Profile Added by user : "+curUser);
         return "redirect:/home";
     }

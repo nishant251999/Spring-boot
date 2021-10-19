@@ -21,9 +21,4 @@ public class UserService {
             return true;
         return false;
     }
-
-    public Boolean isUserAuthorizedToAdd(String curUser) {
-        
-        return false;
-    }
 }

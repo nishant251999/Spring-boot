@@ -56,9 +56,4 @@ public class MainController {
     public String redirectToHome() {
         return "redirect:/home";
     }
-
-    @GetMapping(value="/temp")
-    public String tempPage() {
-        return "temp";
-    }
 }

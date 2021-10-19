@@ -7,3 +7,15 @@
 2021-10-18 10:19:39,221 INFO com.nishant.demo1.controllers.ProfileController [http-nio-8080-exec-10] Homepage accessed by user : nishant25
 2021-10-18 10:19:40,928 INFO com.nishant.demo1.controllers.ProfileController [http-nio-8080-exec-2] Update Form Accessed by user : nishant25
 2021-10-18 10:19:42,378 INFO com.nishant.demo1.controllers.ProfileController [http-nio-8080-exec-4] Homepage accessed by user : nishant25
+2021-10-19 15:30:13,043 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 283245 (/home/akku/Documents/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Java/WUDemos/Demo2/Backend)
+2021-10-19 15:30:13,052 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-10-19 15:30:13,661 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.726 seconds (JVM running for 86171.471)
+2021-10-19 15:30:24,284 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 283245 (/home/akku/Documents/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Java/WUDemos/Demo2/Backend)
+2021-10-19 15:30:24,284 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-10-19 15:30:24,583 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.312 seconds (JVM running for 86182.392)
+2021-10-19 15:32:11,458 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 283245 (/home/akku/Documents/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Java/WUDemos/Demo2/Backend)
+2021-10-19 15:32:11,458 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-10-19 15:32:11,813 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.375 seconds (JVM running for 86289.623)
+2021-10-19 15:32:21,425 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 283245 (/home/akku/Documents/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Java/WUDemos/Demo2/Backend)
+2021-10-19 15:32:21,426 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-10-19 15:32:21,730 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.317 seconds (JVM running for 86299.539)
