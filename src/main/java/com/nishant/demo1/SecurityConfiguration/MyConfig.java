@@ -66,6 +66,8 @@ public class MyConfig extends WebSecurityConfigurerAdapter{
                 }
             }) 
         .and()
+        .exceptionHandling().accessDeniedPage("/home?notauthorized")
+        .and()
         .csrf().disable();
     }
 

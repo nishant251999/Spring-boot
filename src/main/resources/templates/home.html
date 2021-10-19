@@ -24,6 +24,9 @@
     </div>
     <hr>
     <div align = "center" class = "container">
+        <div style = "margin-top:15px" th:if="${param.notauthorized}">
+            <div class="alert alert-danger">You are not Authorized to perform this action</div>
+        </div>
         <a style = "margin-top: 15px;" th:href = "@{/addProfileForm}" class="btn btn-primary mb-3"> Add Profile </a>
         <table border="2" class = "table table-striped table-responsive-md">
             <thead class = "table-dark">

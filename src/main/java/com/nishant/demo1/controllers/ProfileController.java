@@ -4,9 +4,12 @@ import java.security.Principal;
 import java.util.List;
 
 import com.nishant.demo1.entity.Profile;
+import com.nishant.demo1.entity.User;
 import com.nishant.demo1.services.ProfileRestService;
+import com.nishant.demo1.services.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -40,8 +43,8 @@ public class ProfileController {
     }
     
     @GetMapping(value="/addProfileForm")
-    public String showProfileForm(Model model, Principal principal) {
-        String curUser = principal.getName();
+    public String showProfileForm(Model model, Authentication auth) {
+        String curUser = auth.getName();
         Profile profile = new Profile();
         model.addAttribute("profile", profile);
         log.info("Add Form accessed by user : "+curUser);
@@ -49,16 +52,17 @@ public class ProfileController {
     }
     
     @PostMapping(value="/createProfile")
-    public String createProfile(@ModelAttribute("profile") Profile profile, Principal principal) {
-        String curUser = principal.getName();
-        service.createProfile(profile);
+    public String createProfile(@ModelAttribute("profile") Profile profile, Authentication auth) {
+        String curUser = auth.getName();
+        ResponseEntity<Object> response = service.createProfile(profile);
+
         log.info("Profile Added by user : "+curUser);
         return "redirect:/home";
     }
 
     @GetMapping(value="/updateProfileForm/{id}")
-    public String updateProfileForm(@PathVariable long id, Model model, Principal principal) {
-        String curUser = principal.getName();
+    public String updateProfileForm(@PathVariable long id, Model model, Authentication auth) {
+        String curUser = auth.getName();
         Profile profile = service.getProfileByIdForView(id);
         log.info("Update Form Accessed by user : "+curUser);
         model.addAttribute("profile", profile);
@@ -73,8 +77,8 @@ public class ProfileController {
     }
 
     @GetMapping(value = "/deleteProfile/{id}")
-    public String deleteProfileById(@PathVariable long id, Principal principal) {
-        String curUser = principal.getName();
+    public String deleteProfileById(@PathVariable long id, Authentication auth) {
+        String curUser = auth.getName();
         service.deleteProfileById(id);
         log.info("Profile ID : "+id+" deleted by user : "+curUser);
         return "redirect:/home";

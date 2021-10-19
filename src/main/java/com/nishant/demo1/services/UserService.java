@@ -15,4 +15,15 @@ public class UserService {
     public User createUser(User user) {
         return userRepo.save(user);
     }
+
+    public Boolean userAlreadyExists(String curUsername) {
+        if(userRepo.findByUsername(curUsername)!=null)
+            return true;
+        return false;
+    }
+
+    public Boolean isUserAuthorizedToAdd(String curUser) {
+        
+        return false;
+    }
 }

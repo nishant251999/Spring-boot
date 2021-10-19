@@ -40,6 +40,10 @@ public class MainController {
     @PostMapping(value="/registerUser")
     public String registerUser(@ModelAttribute("user") User user, Model model) {
 
+        if(userService.userAlreadyExists(user.getUsername())) {
+            log.error("Username entered already exists");
+            return "redirect:/register?alreadyexists";
+        }
         user.setRole("ROLE_USER");
         model.addAttribute("user", user);
         user.setPassword(passwordEncoder.encode(user.getPassword()));

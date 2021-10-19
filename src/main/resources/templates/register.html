@@ -20,6 +20,9 @@
         <div style = "margin-top:15px" th:if="${param.success}">
             <div class="alert alert-info">You've successfully registered!</div>
         </div>
+        <div style = "margin-top:15px" th:if="${param.alreadyexists}">
+            <div class="alert alert-danger">Oops! Username already exists</div>
+        </div>
         <form th:action = "@{/registerUser}" th:object="${user}" method="POST" style="margin-top:100px">
             <!-- <label>Username</label> -->
             <input required="true" type="text" th:field="*{username}" placeholder="Username" class="form-control mb-4 col-4">
