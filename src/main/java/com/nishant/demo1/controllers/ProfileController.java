@@ -51,6 +51,7 @@ public class ProfileController {
     @PostMapping(value="/createProfile")
     public String createProfile(@ModelAttribute("profile") Profile profile, Authentication auth) {
         String curUser = auth.getName();
+        service.createProfile(profile);
         log.info("Profile Added by user : "+curUser);
         return "redirect:/home";
     }

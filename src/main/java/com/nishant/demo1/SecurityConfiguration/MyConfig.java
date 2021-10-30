@@ -53,7 +53,7 @@ public class MyConfig extends WebSecurityConfigurerAdapter{
         })
         .and()
         .logout()
-            .logoutSuccessHandler(new LogoutSuccessHandler() {
+        .logoutSuccessHandler(new LogoutSuccessHandler() {
  
                 @Override
                 public void onLogoutSuccess(HttpServletRequest request,
