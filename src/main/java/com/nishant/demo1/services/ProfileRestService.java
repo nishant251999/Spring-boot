@@ -127,12 +127,12 @@ public class ProfileRestService {
         return ResponseEntity.status(HttpStatus.ACCEPTED).body(profileRepo.save(extractedProfile));
     }
 
-    public ResponseEntity<String> deleteProfileById(long id) {
+    public ResponseEntity<Object> deleteProfileById(long id) {
         Boolean exists = profileRepo.existsById(id);
         if (!exists)
             return new ResponseEntity<>("Profile with id " + id + " not found", HttpStatus.NOT_FOUND);
         profileRepo.deleteById(id);
-        return new ResponseEntity<>("Profile with id " + id + " successfully deleted", HttpStatus.resolve(202));
+        return new ResponseEntity<>("Profile with id " + id + " successfully deleted", HttpStatus.resolve(200));
     }
 
     public void deleteAll() {
