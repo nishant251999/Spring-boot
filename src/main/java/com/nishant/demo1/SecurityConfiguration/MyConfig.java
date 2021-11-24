@@ -34,6 +34,7 @@ public class MyConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.csrf().disable()
+            .cors().and()
             .authorizeRequests()
             .antMatchers("/generate-token","/create-user").permitAll()
             .anyRequest().authenticated()
@@ -44,6 +45,7 @@ public class MyConfig extends WebSecurityConfigurerAdapter {
 
         http.addFilterBefore(jwtAuthFilter,UsernamePasswordAuthenticationFilter.class);
     }
+    
     
     // @Override
     // protected void configure(HttpSecurity http) throws Exception {
@@ -80,7 +82,7 @@ public class MyConfig extends WebSecurityConfigurerAdapter {
     //                 log.info("The user " + username + " has logged out successfully");
     //                 response.sendRedirect("signin?logout");
     //             }
-    //         }) 
+    //         })
     //     .and()
     //     .exceptionHandling().accessDeniedPage("/home?notauthorized")
     //     .and()

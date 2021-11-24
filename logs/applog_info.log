@@ -1886,3 +1886,304 @@
 2021-11-23 22:25:41,307 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
 2021-11-23 22:25:41,308 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
 2021-11-23 22:25:41,816 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.532 seconds (JVM running for 1150.704)
+2021-11-23 22:33:30,676 ERROR com.nishant.demo1.services.ProfileRestService [http-nio-8080-exec-3] Profile with ID:1 not found
+2021-11-23 22:34:48,035 ERROR com.nishant.demo1.services.ProfileRestService [http-nio-8080-exec-10] Profile with ID:1 not found
+2021-11-23 22:34:58,030 ERROR com.nishant.demo1.services.ProfileRestService [http-nio-8080-exec-1] Incomplete details entered by user
+2021-11-23 22:37:33,922 ERROR com.nishant.demo1.services.ProfileRestService [http-nio-8080-exec-7] Profile not found with provided ID:228
+2021-11-23 22:52:55,373 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-23 22:52:55,374 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-23 22:52:55,999 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.661 seconds (JVM running for 2784.887)
+2021-11-24 00:05:34,822 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:05:34,827 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:05:36,304 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 1.52 seconds (JVM running for 7145.191)
+2021-11-24 00:26:52,289 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:26:52,295 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:26:54,408 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 2.185 seconds (JVM running for 8423.295)
+2021-11-24 00:27:10,885 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:27:10,886 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:27:11,376 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.513 seconds (JVM running for 8440.263)
+2021-11-24 00:27:35,967 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:27:35,968 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:27:36,472 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.529 seconds (JVM running for 8465.359)
+2021-11-24 00:28:37,169 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:28:37,170 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:28:37,745 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.597 seconds (JVM running for 8526.632)
+2021-11-24 00:28:51,286 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:28:51,287 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:28:51,946 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.679 seconds (JVM running for 8540.833)
+2021-11-24 00:29:25,684 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:29:25,686 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:29:26,521 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.897 seconds (JVM running for 8575.409)
+2021-11-24 00:30:01,130 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:30:01,130 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:30:01,631 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.523 seconds (JVM running for 8610.519)
+2021-11-24 00:30:17,161 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:30:17,161 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:30:17,715 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.575 seconds (JVM running for 8626.603)
+2021-11-24 00:43:17,147 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:43:17,150 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:43:24,067 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:43:24,067 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:43:24,579 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.526 seconds (JVM running for 9413.466)
+2021-11-24 00:44:09,734 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:44:09,736 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:44:12,473 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:44:12,473 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:44:15,396 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:44:15,396 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:44:17,307 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:44:17,311 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:44:18,074 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.795 seconds (JVM running for 9466.961)
+2021-11-24 00:44:19,603 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:44:19,605 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:44:20,231 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.649 seconds (JVM running for 9469.118)
+2021-11-24 00:44:47,905 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:44:47,906 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:44:48,395 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.509 seconds (JVM running for 9497.282)
+2021-11-24 00:45:03,977 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:45:03,978 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:45:04,484 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.535 seconds (JVM running for 9513.371)
+2021-11-24 00:45:29,102 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:45:29,104 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:45:29,667 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.598 seconds (JVM running for 9538.554)
+2021-11-24 00:46:00,277 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:46:00,278 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:46:00,917 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.659 seconds (JVM running for 9569.804)
+2021-11-24 00:46:28,584 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:46:28,585 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:46:29,369 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.805 seconds (JVM running for 9598.257)
+2021-11-24 00:49:49,491 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:49:49,493 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:49:53,385 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:49:53,385 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:49:55,452 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:49:55,453 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:49:57,260 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:49:57,261 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:49:59,161 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:49:59,161 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:50:01,034 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:50:01,035 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:50:05,930 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:50:05,930 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:50:06,528 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.61 seconds (JVM running for 9815.415)
+2021-11-24 00:50:08,103 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:50:08,103 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:50:08,709 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.626 seconds (JVM running for 9817.597)
+2021-11-24 00:50:10,242 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:50:10,243 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:50:10,987 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.765 seconds (JVM running for 9819.874)
+2021-11-24 00:50:13,062 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:50:13,063 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:50:13,673 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.639 seconds (JVM running for 9822.56)
+2021-11-24 00:51:34,427 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:51:34,428 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:51:34,928 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.522 seconds (JVM running for 9903.815)
+2021-11-24 00:51:42,632 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:51:42,633 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:51:44,488 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:51:44,488 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:52:23,564 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:52:23,566 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:52:24,231 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.702 seconds (JVM running for 9953.119)
+2021-11-24 00:52:50,862 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:52:50,862 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:52:51,423 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.589 seconds (JVM running for 9980.31)
+2021-11-24 00:52:55,978 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:52:55,979 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:52:56,408 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.445 seconds (JVM running for 9985.296)
+2021-11-24 00:53:00,960 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:53:00,961 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:53:01,447 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.507 seconds (JVM running for 9990.335)
+2021-11-24 00:53:04,967 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:53:04,969 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:53:05,475 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.533 seconds (JVM running for 9994.362)
+2021-11-24 00:53:08,136 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 00:53:08,136 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 00:53:08,726 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.618 seconds (JVM running for 9997.613)
+2021-11-24 01:00:19,489 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:00:19,491 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:00:20,080 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.615 seconds (JVM running for 10428.967)
+2021-11-24 01:00:24,609 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:00:24,610 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:00:25,026 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.433 seconds (JVM running for 10433.913)
+2021-11-24 01:35:33,540 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:35:33,543 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:35:34,526 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 1.03 seconds (JVM running for 12543.413)
+2021-11-24 01:35:39,134 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:35:39,134 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:35:39,604 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.502 seconds (JVM running for 12548.491)
+2021-11-24 01:35:43,181 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:35:43,181 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:35:43,699 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.544 seconds (JVM running for 12552.586)
+2021-11-24 01:35:48,259 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:35:48,259 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:35:48,720 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.484 seconds (JVM running for 12557.607)
+2021-11-24 01:35:50,439 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:35:50,439 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:35:51,322 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.96 seconds (JVM running for 12560.209)
+2021-11-24 01:38:25,822 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:38:25,824 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:38:30,586 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:38:30,586 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:38:35,334 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:38:35,335 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:38:35,970 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.657 seconds (JVM running for 12724.857)
+2021-11-24 01:38:37,530 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:38:37,531 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:38:37,939 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.427 seconds (JVM running for 12726.826)
+2021-11-24 01:39:09,635 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:39:09,636 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:39:10,516 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.901 seconds (JVM running for 12759.403)
+2021-11-24 01:44:47,008 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:44:47,008 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:44:47,564 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.575 seconds (JVM running for 13096.451)
+2021-11-24 01:45:33,221 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:45:33,222 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:45:33,919 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.723 seconds (JVM running for 13142.807)
+2021-11-24 01:47:34,881 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:47:34,891 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:47:35,592 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.756 seconds (JVM running for 13264.48)
+2021-11-24 01:47:37,221 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:47:37,222 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:47:37,740 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.55 seconds (JVM running for 13266.627)
+2021-11-24 01:47:39,450 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:47:39,451 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:47:40,225 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.804 seconds (JVM running for 13269.112)
+2021-11-24 01:47:56,721 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:47:56,721 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:47:57,570 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.867 seconds (JVM running for 13286.457)
+2021-11-24 01:48:05,163 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:48:05,163 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:48:05,699 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.557 seconds (JVM running for 13294.586)
+2021-11-24 01:48:07,231 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:48:07,232 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:48:07,647 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.432 seconds (JVM running for 13296.534)
+2021-11-24 01:48:13,186 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:48:13,187 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:48:13,607 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.436 seconds (JVM running for 13302.494)
+2021-11-24 01:48:41,299 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:48:41,300 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:48:41,789 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.523 seconds (JVM running for 13330.676)
+2021-11-24 01:48:45,355 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 01:48:45,355 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 01:48:46,130 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.799 seconds (JVM running for 13335.017)
+2021-11-24 02:02:09,550 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:02:09,551 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:02:11,476 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:02:11,476 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:02:13,284 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:02:13,285 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:02:13,967 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.704 seconds (JVM running for 14142.854)
+2021-11-24 02:04:55,983 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:04:55,983 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:04:58,691 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:04:58,692 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:04:59,114 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.434 seconds (JVM running for 14308.002)
+2021-11-24 02:05:46,841 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:05:46,844 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:05:47,535 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.716 seconds (JVM running for 14356.422)
+2021-11-24 02:06:07,112 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:06:07,113 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:06:07,506 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.411 seconds (JVM running for 14376.393)
+2021-11-24 02:09:30,739 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:09:30,739 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:09:32,507 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:09:32,507 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:09:36,253 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:09:36,253 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:09:47,412 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:09:47,412 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:09:48,031 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.632 seconds (JVM running for 14596.918)
+2021-11-24 02:09:50,010 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:09:50,011 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:09:50,559 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.585 seconds (JVM running for 14599.446)
+2021-11-24 02:09:53,154 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:09:53,154 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:09:55,026 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:09:55,026 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:10:00,829 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:10:00,829 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:10:10,592 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:10:10,593 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:10:12,774 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:10:12,774 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:10:14,564 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:10:14,564 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:10:15,033 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.479 seconds (JVM running for 14623.92)
+2021-11-24 02:10:55,935 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:10:55,936 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:10:57,887 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:10:57,888 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:10:59,972 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:10:59,974 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:11:02,319 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:11:02,319 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:11:04,087 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:11:04,087 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:11:04,479 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.403 seconds (JVM running for 14673.367)
+2021-11-24 02:11:34,164 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:11:34,165 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:12:00,919 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:12:00,920 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:12:01,350 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.442 seconds (JVM running for 14730.237)
+2021-11-24 02:12:22,997 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:12:22,997 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:12:26,566 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:12:26,567 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:12:26,978 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.42 seconds (JVM running for 14755.865)
+2021-11-24 02:12:49,614 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:12:49,615 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:12:50,063 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.466 seconds (JVM running for 14778.951)
+2021-11-24 02:12:53,673 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:12:53,674 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:16:04,129 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:16:04,129 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:16:04,640 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.527 seconds (JVM running for 14973.527)
+2021-11-24 02:16:11,221 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:16:11,221 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:16:11,629 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.424 seconds (JVM running for 14980.516)
+2021-11-24 02:16:18,231 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:16:18,232 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:16:18,767 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.562 seconds (JVM running for 14987.655)
+2021-11-24 02:16:38,392 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:16:38,393 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:16:58,834 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:16:58,834 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:17:00,991 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:17:00,993 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:17:02,971 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:17:02,973 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:17:05,213 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:17:05,214 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:17:07,545 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:17:07,545 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:17:09,368 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:17:09,368 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:17:11,161 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:17:11,161 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:17:13,038 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:17:13,038 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:17:25,851 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:17:25,851 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:17:44,050 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:17:44,050 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:17:45,884 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:17:45,884 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:17:47,729 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:17:47,729 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:17:49,606 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:17:49,606 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:17:53,334 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:17:53,335 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:18:04,090 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:18:04,090 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:18:08,216 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:18:08,216 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:18:08,810 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.603 seconds (JVM running for 15097.698)
+2021-11-24 02:19:33,720 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:19:33,722 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:19:34,271 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.576 seconds (JVM running for 15183.158)
+2021-11-24 02:20:07,003 INFO com.nishant.demo1.Demo1Application [restartedMain] Starting Demo1Application using Java 17 on akku with PID 20662 (/home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend/target/classes started by akku in /home/akku/Documents/Dev/Java/WUDemos/Demo2/Backend)
+2021-11-24 02:20:07,003 INFO com.nishant.demo1.Demo1Application [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-24 02:20:07,602 INFO com.nishant.demo1.Demo1Application [restartedMain] Started Demo1Application in 0.652 seconds (JVM running for 15216.489)
