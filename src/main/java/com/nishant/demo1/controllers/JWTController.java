@@ -59,6 +59,7 @@ public class JWTController {
     public ResponseEntity<Object> createUser(@RequestBody User user) {
 
         if(userService.userAlreadyExists(user.getUsername())) {
+            log.error("Username Already Exists");
             return new ResponseEntity<>("User already exists",HttpStatus.NOT_ACCEPTABLE);
         }
         return ResponseEntity.ok(userService.createUser(user));
